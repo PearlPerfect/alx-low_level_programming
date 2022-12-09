@@ -1,12 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * Description: main - set a random number to the variable.
  * If the number is > 0: is positive, if the number is 0: is zero.
  * If the number is < 0: is negative.
  * Return: 0
  */
+
 int main(void)
 {
 int n;
