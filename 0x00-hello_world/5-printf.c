@@ -1,18 +1,10 @@
 #include <stdio.h>
-
 /**
- * Description: main - A program that prints all single digit
- * Return: 0
+ * Description: main - Prints out texts to stdout.
+ * Return: 0 should the code runs successfully.
  */
-
 int main(void)
 {
-int num;
-while (num < 10)
-{
-printf("%d", num);
-num += 1;
-}
-printf("\n");
-return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
