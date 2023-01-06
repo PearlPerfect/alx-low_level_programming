@@ -33,5 +33,5 @@ int getNumPrim(int num, int i)
 	{
 		return (0);
 	}
-	return (getNumPrim(num, i + 1));
+	return (getNumPrim(num, i + 1));
 }

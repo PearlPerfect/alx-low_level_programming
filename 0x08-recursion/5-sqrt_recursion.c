@@ -44,6 +44,6 @@ int getNumSqr(int num, int i)
 	}
 	else
 	{
-		return (-1);
+		return (-1);
 	}
 }
