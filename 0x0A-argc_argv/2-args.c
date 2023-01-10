@@ -2,14 +2,17 @@
 #include "main.h"
 
 /**
- * main - a program that prints the number of arguments passed into it.
+ * main - a program that prints all arguments it receives.
  * @argc: argument count.
  * @argv: argument vector arrays.
  * Return: EXIT_SUCCESS.
  */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%d\n", argc - 1);
+	while (argc--)
+	{
+		printf("%s\n", *argv++);
+	}
 	return (0);
 }
