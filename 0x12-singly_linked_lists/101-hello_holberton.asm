@@ -12,4 +12,4 @@ main:
 	mov rax, 0
 	ret
 message: db "Hello, Holberton", 0
-format:	db "%s", 10, 0
+format:	db "%s", 10, 0
